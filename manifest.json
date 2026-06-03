@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Apex - MSP2 Menu",
+  "version": "1.4.9",
+  "description": "Advanced toolkit for MovieStarPlanet2",
+  "permissions": [
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://moviestarplanet2.com/*"
+  ],
+  "background": {
+    "service_worker": "sw.js"
+  }
+}
